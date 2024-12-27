@@ -26,6 +26,28 @@ const myfunction = function(){
     console.log("Hello World!")
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outSideTemp);
-console.log(typeof myfunction);
+// console.log(typeof bigNumber);
+// console.log(typeof outSideTemp);
+// console.log(typeof myfunction);
+
+//-------------------------------------------------
+
+//stack(primitive),Heap(Non-primitive)
+let myname = "Amar Kumar";
+let anothername = myname;
+
+anothername = "chaiaurcode";
+
+// console.log(myname);
+// console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "221586125155@ybl"
+}
+let userTwo = userOne;
+userTwo.email = "amar@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
