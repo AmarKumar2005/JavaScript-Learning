@@ -33,9 +33,14 @@ const balance = 1000;
 //     console.log("less than 1200");   
 // }
 
-const userLoogedIn = true;
+const userLoggedIn = true;
 const debitCard = true;
-if(userLoogedIn && debitCard){
+const loggedFromGoogle = false;
+const loggedInFromEmail = true
+if(userLoggedIn && debitCard){ //and (&&)meaning both are true
     console.log("Allow to buy the course");
-    
+}
+
+if(loggedFromGoogle || loggedInFromEmail){ //or (||)meaning any one is true.
+    console.log("User logged in");
 }
