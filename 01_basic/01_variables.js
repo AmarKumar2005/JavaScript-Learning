@@ -1,4 +1,4 @@
-const accountId = 1245;
+const accountId = 1245; // it can't be changed
 let accountEmail = "amarkumar79180@gmail.com";
 var accountPassword = "12355";
 accountCity = "Jaipur";
