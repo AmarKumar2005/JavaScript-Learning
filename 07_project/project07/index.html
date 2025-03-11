@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Even and Odd number checker</title>
+  </head>
+  <body>
+    <h1>Even or Odd Number Checker</h1>
+    <button onclick="checkEvenOdd()">check weather the number is even or Odd</button>
+    <script>
+      function checkEvenOdd() {
+        let number = parseInt(prompt("Enter a number: "));
+        if (number % 2 == 0) {
+          alert("number is even!");
+        } else {
+          alert("number is odd!");
+        }
+      }
+    </script>
+  </body>
+</html>
